@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* productos */
+
+#form-productos {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+}
+
+.form-productos h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    background: #24303c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+}
+
+.seccion {
+    color: aliceblue;
+    background: #24303c;
+}
+
+.imagen {
+    border-radius: 4px;
+    margin-bottom: 16px;
+    background: #1f53c5;
+}
+
+.form-productos p{
+    color: #1f53c5;
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #24303c;
+}
+
+.form-productos a{
+    color: #1f53c5;
+    text-decoration: none;
+}
+
+.boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin: 10px 0px;
+    font-size: 10px;
+}
+
+/* categorias */
+
+.contenedor_formulario {
+    width: 300px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+/* Estilos para la imagen */
+.img_catergorias img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para los campos de entrada */
+.input_text {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+/* Estilos para los botones */
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.guardar {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+/* Estilos para el encabezado */
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
